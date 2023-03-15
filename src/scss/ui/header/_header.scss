@@ -1,0 +1,7 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.header {
+    background-image: linear-gradient(to right, transparentize(v.$primario, 0.1) 0%, transparentize(v.$primario, 0.1) 100%), url("../img/header_bg.jpg");
+
+}
