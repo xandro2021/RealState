@@ -23,6 +23,7 @@ This is submodule of my studying notes which were released as a public project i
 + It was learnt how to create a pseudo-carrousel only with CSS (section lugares)
 + It was reiforced the use of a gradient as background together with an image in order to give a nice effect
 + Interesting use of the property aspect-ratio to keep the space for the background-image in the cards
++ Use gradient to darken the image so the white text in the cards are visible
 + USE OF FOR TO AVOID THE REPETITION OF SCSS CODE FOR THE IMAGES IN THE CARDS
 #+begin_src scss
 .propiedad {
