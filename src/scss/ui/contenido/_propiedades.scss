@@ -45,4 +45,23 @@
         color: v.$blanco;
         font-size: 2.4rem;
     }
+
+    &__contenido {
+        padding: 2rem;
+    }
+
+    &__texto {
+        margin-bottom: 0;
+    }
+
+    &__precio {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    &__enlace {
+        @include m.boton(v.$primario, v.$blanco);
+        display: block;
+        text-transform: uppercase;
+    }
 }
