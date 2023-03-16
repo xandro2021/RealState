@@ -62,13 +62,15 @@
     }
 
     &__imagen-contenedor {
+        height: 100%;
         @include m.tablet {
             grid-column: 1 / 3;
         }
     }
 
     &__imagen {
-        height: 30rem; //force height to fill the container
+        // height: 30rem; //force height to fill the container
+        height: 100%;
         object-fit: cover; // Necessary so the forced height won't deformed the image
         width: 100%; // force the image width in cases where the image didn't take the whole space in the container
     }
